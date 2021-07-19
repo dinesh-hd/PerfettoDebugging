@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+<TextView
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:padding="4dp"/>
+     <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/tags"
+               android:layout_width="match_parent"
+               android:layout_height="150dp"/>
+
+   <!-- <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:id="@+id/chip_holder"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </HorizontalScrollView>-->
+</LinearLayout>
+
+    <!--           <androidx.recyclerview.widget.RecyclerView
+                   android:id="@+id/tags"
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"/>-->
